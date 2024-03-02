@@ -611,6 +611,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Xcode/Lumberjack/CocoaLumberjack-Prefix.pch";
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
 			};
 			name = Debug;
 		};
@@ -622,6 +625,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Xcode/Lumberjack/CocoaLumberjack-Prefix.pch";
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
 			};
 			name = Release;
 		};
@@ -632,6 +638,9 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
 			};
 			name = Debug;
 		};
@@ -642,6 +651,9 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
 			};
 			name = Release;
 		};
